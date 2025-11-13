@@ -18,3 +18,4 @@ var reduce = function(nums, fn, init) {
 
 const sum = (acc, curr) => acc + curr;
 console.log(reduce([1, 2, 3, 4], sum, 0));  // Output: 10
+
